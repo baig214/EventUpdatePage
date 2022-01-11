@@ -1,0 +1,40 @@
+form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 280px;
+    margin-left: 250px;
+    border-style: ridge;
+    background-color: #D9D7F1;
+  }
+  .name {
+    margin-top: 50px;
+    margin-left: 110px;
+  }
+  .email
+  {
+    margin-left: 114px;
+  }
+  .phone 
+  {
+    margin-left: 160px;
+  }
+  #seats {
+    margin-left: 30px;
+  }
+  #name2
+  {
+    margin-left: 15px;
+  }
+ img {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
+  }
+  body{
+    background-color: #FFCBCB;
+  }
+  #btns{
+    margin-left: 225px;
+    margin-bottom: 10px;
+  }

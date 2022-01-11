@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Survey Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/js/index.js"></script>
+</head>
+<body>
+  <p><h1 align="center" font="Calibri">Event</h1></p>
+  <form class="form-group" method="post"  data-netlify="true" id="form">
+<div class="container-fluid row">
+  <span class="col-sm" id="img">
+    <img src="/img/event.jpg" height="154px" width="164px" class="rounded-circle">
+  </span>
+  <span class="col-sm">
+    Name: <input type="text" name="Name" class="name" required> <br> <br>
+    Email: <input type="email" name="mail" class="email" required> <br> <br>
+    Phone No: <input type="tel" name="Phone" class="phone" pattern="[0-9]{10}" required> <br> <br>
+    Number Of Seats: <select name="seats" id="seats">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <br><br>
+    Name Of Atendee 2: <input type="text" name="name2" id="name2">
+  </span>
+</div>
+
+<!--  Submit Button -->
+<div class="col-10" id="btns">
+        <input type="submit" class="btn btn-primary" placeholder="Submit" >
+        <input type="reset" class="btn btn-primary" placeholder="Cancel" value="Cancel" onclick="">  
+
+        </div>
+      </form>  
+
+</body>
+</html>
